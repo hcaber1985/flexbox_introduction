@@ -46,3 +46,20 @@
     align-items: center;
 
 }
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgreen;
+
+}
+
+.photo-grid{
+    display: flex;
+    border: 2px solid purple;
+    width: 904px;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
