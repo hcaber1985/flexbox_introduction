@@ -58,8 +58,23 @@
     display: flex;
     border: 2px solid purple;
     width: 904px;
-    text-align: center;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 
+}
+
+.first-item{
+    order: 1;
+}
+
+.last-item{
+    order: -1;
+}
+
+.social,
+.subscribe{
+    align-self: flex-end;
+    margin-bottom: 20px;
 }
