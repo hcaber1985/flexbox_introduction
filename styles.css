@@ -20,11 +20,15 @@
     justify-content: space-between;
 }
 
-.links{
+.signup{
+    margin-left: auto;
+}
+
+/*.links{
     border:1px solid #fff;
     display:flex;
-    justify-content: flex-end;
-}
+    justify-content: flex-end;   This section is removed by using automargin above it
+}*/
 
 .login{
     margin-left: 20px;
@@ -77,4 +81,25 @@
 .subscribe{
     align-self: flex-end;
     margin-bottom: 20px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    border: 2px solid pink;
+}
+
+.footer-item{
+    border: 1px solid #f30000;
+    background-color: #D6E9FE;
+    height:200px;
+    flex: 1;
+
+}
+
+.footer-one,
+.footer-three{
+    background-color: #5995DA;
+    flex:initial;
+    width: 300px;
 }
